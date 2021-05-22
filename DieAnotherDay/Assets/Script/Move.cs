@@ -18,7 +18,23 @@ public class Move : MonoBehaviour
     {
         if (Input.anyKey)
         {
-            if (Input.GetKey("w"))
+            if (Input.GetKey("d") && Input.GetKey("s"))
+            {
+                rig.velocity = new Vector2(1f, -1f) * v;
+            }
+            else if (Input.GetKey("a") && Input.GetKey("s"))
+            {
+                rig.velocity = new Vector2(-1f, -1f) * v;
+            }
+            else if (Input.GetKey("d") && Input.GetKey("w"))
+            {
+                rig.velocity = new Vector2(1f, 1f) * v;
+            }
+            else if (Input.GetKey("a") && Input.GetKey("w"))
+            {
+                rig.velocity = new Vector2(-1f, 1f) * v;
+            }
+            else if (Input.GetKey("w"))
             {
                 rig.velocity = new Vector2(0f, 1f) * v;
             }
