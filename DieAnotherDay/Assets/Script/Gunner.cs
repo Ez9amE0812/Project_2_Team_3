@@ -9,7 +9,7 @@ public class Gunner : MonoBehaviour
     // public GameObject obj;
     Transform trans;
     private Vector2 mousePosition;
-    private Vector2 playerPosition;
+    public static Vector2 playerPosition;
     private Rigidbody2D rig;
     void Start()
     {
@@ -25,7 +25,7 @@ public class Gunner : MonoBehaviour
     {
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         playerPosition.x = trans.position.x;
-        playerPosition.x = trans.position.y;
+        playerPosition.y = trans.position.y;
         Vector2 look = mousePosition - playerPosition;
         float Angle = Mathf.Atan2(look.y, look.x) * Mathf.Rad2Deg - 90f;
         if (distance(mousePosition.x, mousePosition.y, trans.position.x, trans.position.y) > 1)
