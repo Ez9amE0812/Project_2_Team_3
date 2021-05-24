@@ -8,7 +8,7 @@ public class Gunner : MonoBehaviour
     // Start is called before the first frame update
     // public GameObject obj;
     Transform trans;
-    private Vector2 mousePosition;
+    public static Vector2 mousePosition;
     public static Vector2 playerPosition;
     private Rigidbody2D rig;
     void Start()

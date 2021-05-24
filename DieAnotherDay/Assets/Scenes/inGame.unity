@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &292697182 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7163235788911472311, guid: 4f9ac19db67d1cf468fa7608259ecea2, type: 3}
+  m_PrefabInstance: {fileID: 7900557810442905688}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &653227290
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,6 +367,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4296367811950881009, guid: 4f9ac19db67d1cf468fa7608259ecea2, type: 3}
+      propertyPath: Bullet
+      value: 
+      objectReference: {fileID: 2911345469739600239, guid: 6f0c0d8f3550a53498f666ac8cea4494, type: 3}
+    - target: {fileID: 4296367811950881009, guid: 4f9ac19db67d1cf468fa7608259ecea2, type: 3}
+      propertyPath: firePosition
+      value: 
+      objectReference: {fileID: 292697182}
+    - target: {fileID: 7163235788911472311, guid: 4f9ac19db67d1cf468fa7608259ecea2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.161
+      objectReference: {fileID: 0}
+    - target: {fileID: 7163235788911472311, guid: 4f9ac19db67d1cf468fa7608259ecea2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.887
+      objectReference: {fileID: 0}
     - target: {fileID: 7900557810098825905, guid: 4f9ac19db67d1cf468fa7608259ecea2, type: 3}
       propertyPath: m_Name
       value: Player
