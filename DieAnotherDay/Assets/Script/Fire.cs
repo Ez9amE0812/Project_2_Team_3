@@ -25,7 +25,7 @@ public class Fire : MonoBehaviour
             Vector2 look = Gunner.mousePosition - Gunner.playerPosition;
             rig.rotation = Mathf.Atan2(look.y, look.x) * Mathf.Rad2Deg - 90f;
             rig.velocity = look * speed / look.magnitude;
-            Destroy(bullet, 3f);
+            Destroy(bullet, 2.5f);
         }
     }
 }
