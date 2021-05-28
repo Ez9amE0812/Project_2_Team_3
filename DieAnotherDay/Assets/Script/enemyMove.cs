@@ -10,7 +10,7 @@ public class enemyMove : MonoBehaviour
     private Rigidbody2D rig;
     void Start()
     {
-        speed = 6.0f;
+        speed = 3.0f;
         rig = GetComponent<Rigidbody2D>();
     }
 

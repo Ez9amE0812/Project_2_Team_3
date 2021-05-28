@@ -10,6 +10,7 @@ public class Gunner : MonoBehaviour
     Transform trans;
     public static Vector2 mousePosition;
     public static Vector2 playerPosition;
+
     private Rigidbody2D rig;
     void Start()
     {
@@ -19,7 +20,7 @@ public class Gunner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
     private void FixedUpdate()
     {
@@ -27,9 +28,10 @@ public class Gunner : MonoBehaviour
         playerPosition.x = trans.position.x;
         playerPosition.y = trans.position.y;
         Vector2 look = mousePosition - playerPosition;
-        float Angle = Mathf.Atan2(look.y, look.x) * Mathf.Rad2Deg - 90f;
+        float Angle = Mathf.Atan2(look.y, look.x) * Mathf.Rad2Deg + 90f;
         if (distance(mousePosition.x, mousePosition.y, trans.position.x, trans.position.y) > 1)
             rig.rotation = Angle;
+        
     }
     float distance(float x1, float y1, float x2, float y2)
     {
