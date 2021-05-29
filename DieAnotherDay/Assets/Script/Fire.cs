@@ -21,10 +21,11 @@ public class Fire : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            //Create bullet
-            GameObject bullet = Instantiate(Bullet);
             ani.SetBool("firer", true);
             wait = Time.time;
+
+            //Create bullet
+            GameObject bullet = Instantiate(Bullet);
             Rigidbody2D rig = bullet.GetComponent<Rigidbody2D>();
             bullet.transform.position = firePosition.position;
             Vector2 look = Gunner.mousePosition - Gunner.playerPosition;

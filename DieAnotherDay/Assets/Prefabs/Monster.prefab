@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 679575176640499812}
   - component: {fileID: 679575176640499814}
   - component: {fileID: 679575176640499815}
-  - component: {fileID: 679575176640499809}
   - component: {fileID: 120808936145136372}
+  - component: {fileID: 679575176640499809}
   - component: {fileID: 639054735592652071}
   m_Layer: 0
   m_Name: Monster
@@ -98,7 +98,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 100
+  m_Mass: 1000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -107,19 +107,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &679575176640499809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 679575176640499813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21ba46a17db933e4180ea14dd47587eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
 --- !u!60 &120808936145136372
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -232,6 +219,23 @@ PolygonCollider2D:
       - {x: 0.89, y: -0.14}
       - {x: 0.90999997, y: -0.17}
       - {x: 0.9, y: -0.16}
+--- !u!114 &679575176640499809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679575176640499813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21ba46a17db933e4180ea14dd47587eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  bulletSpeed: 0
+  shooter: 0
+  EnemyBullet: {fileID: 0}
+  firePosition: {fileID: 0}
 --- !u!114 &639054735592652071
 MonoBehaviour:
   m_ObjectHideFlags: 0

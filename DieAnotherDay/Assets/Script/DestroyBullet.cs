@@ -26,6 +26,10 @@ public class DestroyBullet : MonoBehaviour
         {
             Destroy(bullet);
         }
+        if (other.collider.tag.Equals("Wall"))
+        {
+            Destroy(bullet);
+        }
         // if (other.collider.tag.Equals("DestroyBullet"))
         // {
         //     Destroy(bullet);
