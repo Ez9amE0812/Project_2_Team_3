@@ -18,11 +18,11 @@ public class enemyMove : MonoBehaviour
     private Rigidbody2D rig;
     void Start()
     {
-        bulletSpeed = 6f;
+        bulletSpeed = 8f;
         delayShootTime = 1f;
         ShootingCycle = 3f;
         wait = Time.time;
-        distanceShoot = 10f;
+        distanceShoot = 15f;
         if (!shooter)
         {
             speed = 3.0f;
