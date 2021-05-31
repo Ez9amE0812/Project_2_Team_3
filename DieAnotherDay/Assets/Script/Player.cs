@@ -33,6 +33,21 @@ public class Player : MonoBehaviour
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.collider.tag.Equals("Enemy"))
+        {
+            TakeDamage(10);
+        }
+
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag.Equals("EnemyBullet"))
+        {
+            TakeDamage(5);
+        }
+    }
     void TakeDamage(int damage)
     {
         currentHealth -= damage;

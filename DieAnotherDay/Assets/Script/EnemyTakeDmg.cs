@@ -26,12 +26,4 @@ public class EnemyTakeDmg : MonoBehaviour
             HP -= 1;
         }
     }
-    // private void OnTriggerEnter(Collider other)
-    // {
-    //     if (other.tag.Equals("Bullet"))
-    //     {
-    //         this.HP -= 1;
-    //         Debug.Log("touch");
-    //     }
-    // }
 }
