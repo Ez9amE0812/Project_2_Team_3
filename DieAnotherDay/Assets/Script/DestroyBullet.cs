@@ -22,6 +22,10 @@ public class DestroyBullet : MonoBehaviour
         {
             Destroy(bullet);
         }
+        if (other.collider.tag.Equals("Alien"))
+        {
+            Destroy(bullet);
+        }
         if (other.collider.tag.Equals("Bullet"))
         {
             Destroy(bullet);

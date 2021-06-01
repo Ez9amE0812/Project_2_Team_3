@@ -26,6 +26,13 @@ public class Player : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        /*
+        if (currentHealth < maxHealth)
+        {
+            currentHealth++;
+            healthbar.SetHealth(currentHealth);
+        }
+        */
 
     }
     private void FixedUpdate()
@@ -39,13 +46,17 @@ public class Player : MonoBehaviour
         {
             TakeDamage(10);
         }
+        if (other.collider.tag.Equals("Alien"))
+        {
+            TakeDamage(10);
+        }
 
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag.Equals("EnemyBullet"))
         {
-            TakeDamage(5);
+            TakeDamage(10);
         }
     }
     void TakeDamage(int damage)

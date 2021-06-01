@@ -9,6 +9,7 @@ TagManager:
   - DestroyBullet
   - EnemyBullet
   - Wall
+  - Alien
   layers:
   - Default
   - TransparentFX
