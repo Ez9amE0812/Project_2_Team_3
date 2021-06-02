@@ -5,7 +5,7 @@ using UnityEngine;
 public class Alien : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int HP = 10;
+    public int HP;
     public GameObject enemy;
     public GameObject checkBox;
     public float speed;
@@ -13,7 +13,7 @@ public class Alien : MonoBehaviour
     public GameObject EnemyBullet;
     public Transform firePosition;
     private Vector2 enemyPosition;
-    public  bool isScratch = false;
+    public bool isScratch = false;
     private float delayShootTime;
     private float ShootingCycle;
     private float wait;
@@ -22,6 +22,7 @@ public class Alien : MonoBehaviour
     public Animator ani;
     void Start()
     {
+        HP = 200;
         bulletSpeed = 15f;
         delayShootTime = 0.35f;
         ShootingCycle = 3f;
@@ -33,7 +34,7 @@ public class Alien : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         enemyPosition.x = transform.position.x;
         enemyPosition.y = transform.position.y;
         Vector2 look = Gunner.playerPosition - enemyPosition;
@@ -41,7 +42,7 @@ public class Alien : MonoBehaviour
         rig.rotation = Angle;
         rig.velocity = look * speed / look.magnitude;
 
-        isScratch = checkBox.GetComponent<AlienScratch>().isScratch; 
+        isScratch = checkBox.GetComponent<AlienScratch>().isScratch;
         //enemyShoot
         if (!isScratch)
         {
@@ -89,8 +90,12 @@ public class Alien : MonoBehaviour
     {
         if (other.collider.tag.Equals("Bullet"))
         {
-            HP -= 1;
+            takeDmg(10);
         }
+    }
+    public void takeDmg(int dmg)
+    {
+        HP -= dmg;
     }
 
 }
