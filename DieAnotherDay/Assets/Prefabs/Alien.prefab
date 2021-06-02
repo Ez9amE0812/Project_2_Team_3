@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 1451453483}
   m_Layer: 0
   m_Name: Alien
-  m_TagString: Enemy
+  m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,7 +258,6 @@ MonoBehaviour:
   bulletSpeed: 0
   EnemyBullet: {fileID: 2263138848215236902, guid: ebc0a7059a373e049a4055b426c64519, type: 3}
   firePosition: {fileID: 2067393775026803711}
-  isScratch: 0
   ani: {fileID: 1451453480}
 --- !u!1 &3029795700173627937
 GameObject:

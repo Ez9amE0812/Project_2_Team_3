@@ -13,7 +13,7 @@ public class Alien : MonoBehaviour
     public GameObject EnemyBullet;
     public Transform firePosition;
     private Vector2 enemyPosition;
-    public  bool isScratch = false;
+    private bool isScratch = false;
     private float delayShootTime;
     private float ShootingCycle;
     private float wait;
@@ -77,7 +77,10 @@ public class Alien : MonoBehaviour
             rig.velocity = look * speed / look.magnitude;
         }
         if (HP <= 0)
-            Destroy(enemy);
+        {
+            ani.SetTrigger("died");
+            Destroy(enemy, 0.5f);
+        }
     }
     float distance(float x1, float y1, float x2, float y2)
     {

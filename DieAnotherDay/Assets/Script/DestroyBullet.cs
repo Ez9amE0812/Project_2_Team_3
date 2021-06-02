@@ -6,6 +6,7 @@ public class DestroyBullet : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject bullet;
+    public Animator ani; 
     void Start()
     {
         // bullet = GameObject.FindGameObjectWithTag("Bullet");
@@ -24,7 +25,8 @@ public class DestroyBullet : MonoBehaviour
         }
         if (other.collider.tag.Equals("Alien"))
         {
-            Destroy(bullet);
+            ani.SetTrigger("kill");
+            Destroy(bullet, 0.3f);
         }
         if (other.collider.tag.Equals("Bullet"))
         {
@@ -32,7 +34,8 @@ public class DestroyBullet : MonoBehaviour
         }
         if (other.collider.tag.Equals("Wall"))
         {
-            Destroy(bullet);
+            ani.SetTrigger("impact");
+            Destroy(bullet, 0.2f);
         }
         // if (other.collider.tag.Equals("DestroyBullet"))
         // {
