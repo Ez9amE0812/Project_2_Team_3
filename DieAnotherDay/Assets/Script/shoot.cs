@@ -17,7 +17,8 @@ public class shoot : MonoBehaviour
     public Health powerBar;
     private int maxPower = 20;
     private int currentPower;
-
+    public AudioSource GunSound;
+    public AudioSource LazerSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +39,7 @@ public class shoot : MonoBehaviour
             wait = Time.time;
 
             //Create bullet
+            GunSound.Play();
             GameObject bullet = Instantiate(Bullet);
             Rigidbody2D rig = bullet.GetComponent<Rigidbody2D>();
             bullet.transform.position = firePosition.position;
@@ -59,7 +61,7 @@ public class shoot : MonoBehaviour
                 {
                     currentPower -= 1;
                     waitPower = Time.time;
-
+                    LazerSound.Play();
                     lazer.SetPosition(0, lazerPosition.position);
                     Vector2 direction = Gunner.mousePosition - (Vector2)lazerPosition.position;
                     RaycastHit2D hitInfo = Physics2D.Raycast(lazerPosition.position, direction / direction.magnitude);
@@ -90,6 +92,7 @@ public class shoot : MonoBehaviour
             if (Time.time > waitPower + 0.3f)
             {
                 currentPower += 1;
+                if (currentPower > maxPower) currentPower = maxPower;
                 waitPower = Time.time;
             }
 

@@ -20,6 +20,7 @@ public class Alien : MonoBehaviour
     private float distanceShoot;
     private Rigidbody2D rig;
     public Animator ani;
+    public AudioSource shoot_sound;
     void Start()
     {
         HP = 10;
@@ -60,6 +61,7 @@ public class Alien : MonoBehaviour
                 ani.SetTrigger("shoot");
                 if (Time.time > wait + delayShootTime + ShootingCycle)
                 {
+                    shoot_sound.Play();
                     GameObject bullet = Instantiate(EnemyBullet);
                     Rigidbody2D rigBullet = bullet.GetComponent<Rigidbody2D>();
                     bullet.transform.position = firePosition.position;

@@ -19,7 +19,7 @@ public class Spawner : MonoBehaviour
     {
         if (T % 500 == 0)
         {
-            Vector2 spawnPos = PortalCircle + Random.insideUnitCircle * 4;
+            Vector2 spawnPos = PortalCircle + Random.insideUnitCircle * 2;
             Instantiate(Alien, spawnPos, Quaternion.identity);
         }
         T++;
