@@ -13,15 +13,23 @@ public class shoot : MonoBehaviour
 
     private float speed = 20;
     private float wait;
+    private float waitPower;
+    public Health powerBar;
+    private int maxPower = 20;
+    private int currentPower;
 
     // Start is called before the first frame update
     void Start()
     {
+        currentPower = 0;
+        powerBar.SetMaxHealth(maxPower);
+        waitPower = Time.time;
     }
 
     // Update is called once per frame
     void Update()
     {
+        powerBar.SetHealth(currentPower);
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -42,31 +50,49 @@ public class shoot : MonoBehaviour
         {
             ani.SetBool("firer", false);
             ani.SetBool("lazer", true);
-            lazer.SetPosition(0, lazerPosition.position);
-
             wait = Time.time;
+
             //create lazer
-            Vector2 direction = Gunner.mousePosition - (Vector2)lazerPosition.position;
-            RaycastHit2D hitInfo = Physics2D.Raycast(lazerPosition.position, direction / direction.magnitude);
-            if (hitInfo)
+            if (currentPower > 0)
             {
-                EnemyTakeDmg enemy = hitInfo.transform.GetComponent<EnemyTakeDmg>();
-                Alien alien = hitInfo.transform.GetComponent<Alien>();
-                if (enemy != null)
+                if (Time.time > waitPower + 0.1f)
                 {
-                    enemy.takeDmg(1);
+                    currentPower -= 1;
+                    waitPower = Time.time;
+
+                    lazer.SetPosition(0, lazerPosition.position);
+                    Vector2 direction = Gunner.mousePosition - (Vector2)lazerPosition.position;
+                    RaycastHit2D hitInfo = Physics2D.Raycast(lazerPosition.position, direction / direction.magnitude);
+                    if (hitInfo)
+                    {
+                        EnemyTakeDmg enemy = hitInfo.transform.GetComponent<EnemyTakeDmg>();
+                        Alien alien = hitInfo.transform.GetComponent<Alien>();
+                        if (enemy != null)
+                        {
+                            enemy.takeDmg(1);
+                        }
+                        if (alien != null)
+                        {
+                            alien.takeDmg(1);
+                        }
+                        lazer.SetPosition(1, hitInfo.point);
+                    }
                 }
-                if (alien != null)
-                {
-                    alien.takeDmg(1);
-                }
-                lazer.SetPosition(1, hitInfo.point);
             }
-
-
+            else
+            {
+                lazer.SetPosition(0, new Vector3(0, 0, -1));
+                lazer.SetPosition(1, new Vector3(0, 0, -1));
+            }
         }
         else
         {
+            if (Time.time > waitPower + 0.3f)
+            {
+                currentPower += 1;
+                waitPower = Time.time;
+            }
+
             lazer.SetPosition(0, new Vector3(0, 0, -1));
             lazer.SetPosition(1, new Vector3(0, 0, -1));
         }
