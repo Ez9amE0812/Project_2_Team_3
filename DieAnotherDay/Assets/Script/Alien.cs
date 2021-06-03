@@ -22,12 +22,12 @@ public class Alien : MonoBehaviour
     public Animator ani;
     void Start()
     {
-        HP = 200;
+        HP = 10;
         bulletSpeed = 15f;
         delayShootTime = 0.35f;
         ShootingCycle = 3f;
         wait = Time.time;
-        distanceShoot = 20f;
+        distanceShoot = 17f;
         speed = 1.5f;
         rig = GetComponent<Rigidbody2D>();
     }
@@ -93,7 +93,7 @@ public class Alien : MonoBehaviour
     {
         if (other.collider.tag.Equals("Bullet"))
         {
-            takeDmg(10);
+            takeDmg(1);
         }
     }
     public void takeDmg(int dmg)

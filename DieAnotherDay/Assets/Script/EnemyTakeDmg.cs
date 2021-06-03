@@ -9,7 +9,7 @@ public class EnemyTakeDmg : MonoBehaviour
     public GameObject enemy;
     void Start()
     {
-        HP = 100;
+        HP = 5;
         // enemy = GameObject.FindGameObjectWithTag("Enemy");
     }
 
@@ -23,7 +23,7 @@ public class EnemyTakeDmg : MonoBehaviour
     {
         if (other.collider.tag.Equals("Bullet"))
         {
-            takeDmg(10);
+            takeDmg(1);
         }
     }
     public void takeDmg(int dmg)

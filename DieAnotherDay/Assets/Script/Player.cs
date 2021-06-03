@@ -9,16 +9,20 @@ public class Player : MonoBehaviour
 
     Vector2 movement;
 
-    public int maxHealth = 100;
+
     public int currentHealth;
+    
 
     public Health healthbar;
+    
+    private int maxHealth = 100;
+    
 
     void Start()
     {
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
-
+        
     }
 
     // Update is called once per frame
