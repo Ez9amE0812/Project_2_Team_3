@@ -26,7 +26,7 @@ public class DestroyBullet : MonoBehaviour
         if (other.collider.tag.Equals("Alien"))
         {
             ani.SetTrigger("kill");
-            Destroy(bullet, 0.3f);
+            Destroy(bullet, 0.2f);
         }
         if (other.collider.tag.Equals("Bullet"))
         {
