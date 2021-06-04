@@ -8,7 +8,7 @@ public class Spawner : MonoBehaviour
     public Transform Portal;
     public GameObject Alien;
     Vector2 PortalCircle;
-    int T = 0; 
+    int T = 0;
     void Start()
     {
         PortalCircle = Portal.position;
@@ -19,7 +19,7 @@ public class Spawner : MonoBehaviour
     {
         if (T % 500 == 0)
         {
-            Vector2 spawnPos = PortalCircle + Random.insideUnitCircle * 2;
+            Vector2 spawnPos = PortalCircle + Random.insideUnitCircle * 1.5f;
             Instantiate(Alien, spawnPos, Quaternion.identity);
         }
         T++;

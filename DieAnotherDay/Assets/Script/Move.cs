@@ -9,7 +9,7 @@ public class Move : MonoBehaviour
     public float v;
     void Start()
     {
-        v = 2;
+        v = 4f;
         rig = GetComponent<Rigidbody2D>();
     }
 

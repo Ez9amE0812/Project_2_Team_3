@@ -1,0 +1,1440 @@
+fileFormatVersion: 2
+guid: fffed049b4ea00943b5c713578f6b513
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1497909947719263082
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_0
+  - first:
+      213: 3500255190419730625
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_1
+  - first:
+      213: -8601920537052397000
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_2
+  - first:
+      213: 1464441831976035646
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_3
+  - first:
+      213: -2474110805214277298
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_4
+  - first:
+      213: 6362352185964368483
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_5
+  - first:
+      213: 18631897421880054
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_6
+  - first:
+      213: 8736612638208246250
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_7
+  - first:
+      213: 2708543369516090638
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_8
+  - first:
+      213: 903541498668338717
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_9
+  - first:
+      213: -3010504118499478443
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_10
+  - first:
+      213: 1866067334633943076
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_11
+  - first:
+      213: -4558807090575594097
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_12
+  - first:
+      213: 7399802380726106491
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_13
+  - first:
+      213: 5814260399106304402
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_14
+  - first:
+      213: -8174963463761126927
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_15
+  - first:
+      213: -2035340479556553975
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_16
+  - first:
+      213: -3540720720160987331
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_17
+  - first:
+      213: 7210313289014780747
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_18
+  - first:
+      213: 3142343805939451366
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_19
+  - first:
+      213: -4049061363940020794
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_20
+  - first:
+      213: 7096652996339369908
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_21
+  - first:
+      213: 985952356477659686
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_22
+  - first:
+      213: -7994447982791655484
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_23
+  - first:
+      213: 8366044810951202340
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_24
+  - first:
+      213: 282105185210621790
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_25
+  - first:
+      213: 3382152531441856506
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_26
+  - first:
+      213: 2782301874590235946
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_27
+  - first:
+      213: 6175233300828429028
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_28
+  - first:
+      213: -551425845636560975
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_29
+  - first:
+      213: -4872727373053570312
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_30
+  - first:
+      213: 3860803820441920964
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_31
+  - first:
+      213: -4862319261623164782
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_32
+  - first:
+      213: 3442114549246957000
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_33
+  - first:
+      213: -8811195857952957254
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_34
+  - first:
+      213: -4575525217757896002
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_35
+  - first:
+      213: 7986363551353768027
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_36
+  - first:
+      213: -8064707996955856317
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_37
+  - first:
+      213: 2028300043950045644
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_38
+  - first:
+      213: 8574986377579279210
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_39
+  - first:
+      213: 2654799717814893059
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_40
+  - first:
+      213: 5947076554249726051
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_41
+  - first:
+      213: 561329985724987584
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_42
+  - first:
+      213: 9089357593491645869
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_43
+  - first:
+      213: -4267706538281014432
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_44
+  - first:
+      213: 685708587825071876
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_45
+  - first:
+      213: -5505800902300182458
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_46
+  - first:
+      213: 4898421951239065496
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_47
+  - first:
+      213: -6261486237967233844
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_48
+  - first:
+      213: -7248522703707659477
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_49
+  - first:
+      213: 6967233782768357207
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_50
+  - first:
+      213: 3188769047757299985
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_51
+  - first:
+      213: 1947239046004304976
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_52
+  - first:
+      213: 2369251344968698997
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_53
+  - first:
+      213: -1667503086873430851
+    second: TDS-Zombie-Character-Sprite9.npg-removebg-preview_54
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 386
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c5bacb6da563be0800000000000000
+      internalID: -1497909947719263082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 386
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c07f20fc87639030800000000000000
+      internalID: 3500255190419730625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 377
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832cad2b8d6df9880800000000000000
+      internalID: -8601920537052397000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 386
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e356725561eb25410800000000000000
+      internalID: 1464441831976035646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 386
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e415f30c4513aadd0800000000000000
+      internalID: -2474110805214277298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 377
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362165c9a9d9b4850800000000000000
+      internalID: 6362352185964368483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 300
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa925bac91324000800000000000000
+      internalID: 18631897421880054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 301
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae14798e7eeae3970800000000000000
+      internalID: 8736612638208246250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 304
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e050fb618dda69520800000000000000
+      internalID: 2708543369516090638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 304
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e43f3b4360a8c00800000000000000
+      internalID: 903541498668338717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 307
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554fcfd547a8836d0800000000000000
+      internalID: -3010504118499478443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 303
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420f0df9a5a95e910800000000000000
+      internalID: 1866067334633943076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 301
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8da5beca1ddbb0c0800000000000000
+      internalID: -4558807090575594097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 302
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79f4473f0161b660800000000000000
+      internalID: 7399802380726106491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 305
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2992a58170760b050800000000000000
+      internalID: 5814260399106304402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 304
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f998b2ea02bc8e80800000000000000
+      internalID: -8174963463761126927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 307
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903fe071e9401c3e0800000000000000
+      internalID: -2035340479556553975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 98
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3760f9b345dcdec0800000000000000
+      internalID: -3540720720160987331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 235
+        width: 101
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4321070cbd201460800000000000000
+      internalID: 7210313289014780747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 246
+        width: 84
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e58b2bea09db9b20800000000000000
+      internalID: 3142343805939451366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 170
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cda8907428dec7c0800000000000000
+      internalID: -4049061363940020794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 150
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7050dec406c7260800000000000000
+      internalID: 7096652996339369908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 170
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a6f45c17ecead00800000000000000
+      internalID: 985952356477659686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 170
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf7d528ae30e0190800000000000000
+      internalID: -7994447982791655484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 168
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4261fbb2e692a1470800000000000000
+      internalID: 8366044810951202340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 169
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f56c9db2d3ae300800000000000000
+      internalID: 282105185210621790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 162
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affa7c4dec1dfee20800000000000000
+      internalID: 3382152531441856506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 170
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dbadc40d8bc9620800000000000000
+      internalID: 2782301874590235946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 151
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea9a0528f5d2b550800000000000000
+      internalID: 6175233300828429028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 169
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b70dde6d11f858f0800000000000000
+      internalID: -551425845636560975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 171
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2d1d16548906cb0800000000000000
+      internalID: -4872727373053570312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 174
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c569e88e94549530800000000000000
+      internalID: 3860803820441920964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 172
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290696aa462958cb0800000000000000
+      internalID: -4862319261623164782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 166
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5911802f8d4cf20800000000000000
+      internalID: 3442114549246957000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 98
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc12580d0858b580800000000000000
+      internalID: -8811195857952957254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 127
+        width: 101
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2e2be7e087080c0800000000000000
+      internalID: -4575525217757896002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 62
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58819d165345de60800000000000000
+      internalID: 7986363551353768027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 112
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342b1303ec6641090800000000000000
+      internalID: -8064707996955856317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 113
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc93d81c428f52c10800000000000000
+      internalID: 2028300043950045644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 102
+        width: 92
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a633d6d9da8700770800000000000000
+      internalID: 8574986377579279210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 103
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30af922174eb7d420800000000000000
+      internalID: 2654799717814893059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 11
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368eb1cfd92488250800000000000000
+      internalID: 5947076554249726051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 24
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8b9e0e5ae3ac700800000000000000
+      internalID: 561329985724987584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 12
+        width: 38
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5a194e292e32e70800000000000000
+      internalID: 9089357593491645869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 79
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06be524c38f06c4c0800000000000000
+      internalID: -4267706538281014432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 27
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4078fbcd350248900800000000000000
+      internalID: 685708587825071876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 23
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6485f5610477793b0800000000000000
+      internalID: -5505800902300182458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 27
+        width: 74
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f849bcfc0baf340800000000000000
+      internalID: 4898421951239065496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 26
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc47fbf07bba19a0800000000000000
+      internalID: -6261486237967233844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 22
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23a62b5103186b90800000000000000
+      internalID: -7248522703707659477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 24
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f4201263690b060800000000000000
+      internalID: 6967233782768357207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 20
+        width: 71
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111a55add88c04c20800000000000000
+      internalID: 3188769047757299985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 62
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c6bdd689bf50b10800000000000000
+      internalID: 1947239046004304976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 52
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cc970ab8541e020800000000000000
+      internalID: 2369251344968698997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDS-Zombie-Character-Sprite9.npg-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 38
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4ba0df6c6dbd8e0800000000000000
+      internalID: -1667503086873430851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

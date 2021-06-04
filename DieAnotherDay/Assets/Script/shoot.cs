@@ -71,11 +71,11 @@ public class shoot : MonoBehaviour
                         Alien alien = hitInfo.transform.GetComponent<Alien>();
                         if (enemy != null)
                         {
-                            enemy.takeDmg(1);
+                            enemy.takeDmg(2);
                         }
                         if (alien != null)
                         {
-                            alien.takeDmg(1);
+                            alien.takeDmg(2);
                         }
                         lazer.SetPosition(1, hitInfo.point);
                     }
