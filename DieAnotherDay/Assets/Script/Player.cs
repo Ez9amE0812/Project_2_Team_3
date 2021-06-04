@@ -12,17 +12,18 @@ public class Player : MonoBehaviour
 
     public int currentHealth;
     
-
     public Health healthbar;
     
     private int maxHealth = 100;
-    
+    public static bool died;
+    private float wait;
 
     void Start()
     {
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
-        
+        died = false;
+        wait = Time.time;
     }
 
     // Update is called once per frame
@@ -41,14 +42,20 @@ public class Player : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (!died) rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (currentHealth < maxHealth && Time.time > wait+1f)
+        {
+            currentHealth++;
+            healthbar.SetHealth(currentHealth);
+            wait = Time.time;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.collider.tag.Equals("Enemy"))
         {
-            TakeDamage(10);
+            TakeDamage(15);
         }
         if (other.collider.tag.Equals("Alien"))
         {
@@ -60,13 +67,13 @@ public class Player : MonoBehaviour
     {
         if (other.tag.Equals("EnemyBullet"))
         {
-            TakeDamage(10);
+            TakeDamage(15);
         }
     }
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        if (currentHealth < 0) currentHealth = 0;
+        if (currentHealth < 0) died = true;
         healthbar.SetHealth(currentHealth);
     }
 }
