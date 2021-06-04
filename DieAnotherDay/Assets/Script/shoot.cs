@@ -32,7 +32,7 @@ public class shoot : MonoBehaviour
     {
         powerBar.SetHealth(currentPower);
 
-        if (Input.GetMouseButtonDown(0) && !Player.died)
+        if (Input.GetMouseButtonDown(0))
         {
             ani.SetBool("firer", true);
             ani.SetBool("lazer", false);
@@ -48,7 +48,7 @@ public class shoot : MonoBehaviour
             rig.velocity = look * speed / look.magnitude;
             Destroy(bullet, 2.5f);
         }
-        if (Input.GetMouseButton(1) && !Player.died)
+        if (Input.GetMouseButton(1))
         {
             ani.SetBool("firer", false);
             ani.SetBool("lazer", true);
@@ -69,18 +69,13 @@ public class shoot : MonoBehaviour
                     {
                         EnemyTakeDmg enemy = hitInfo.transform.GetComponent<EnemyTakeDmg>();
                         Alien alien = hitInfo.transform.GetComponent<Alien>();
-                        Zombie zombie = hitInfo.transform.GetComponent<Zombie>();
                         if (enemy != null)
                         {
                             enemy.takeDmg(2);
                         }
                         if (alien != null)
                         {
-                            alien.takeDmg(3);
-                        }
-                        if (zombie != null)
-                        {
-                            zombie.takeDmg(3);
+                            alien.takeDmg(2);
                         }
                         lazer.SetPosition(1, hitInfo.point);
                     }
