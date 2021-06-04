@@ -9,20 +9,24 @@ public class Zombie : MonoBehaviour
     public GameObject checkBox;
     public float speed;
     private Vector2 enemyPosition;
-    public bool isScratch = false;
+    private bool isScratch = false;
+    private float wait;
     private Rigidbody2D rig;
+    private bool died;
     public Animator ani;
-    public AudioSource shoot_sound;
+    public AudioSource sound;
     void Start()
     {
         HP = 3;
+        died = false;
         speed = 4f;
         rig = GetComponent<Rigidbody2D>();
+        wait = Time.time;
     }
     // Update is called once per frame
     void Update()
     {
-
+        if (Time.time > wait + 0.5f && !died) sound.Play(); 
         enemyPosition.x = transform.position.x;
         enemyPosition.y = transform.position.y;
         Vector2 look = Gunner.playerPosition - enemyPosition;
@@ -44,7 +48,9 @@ public class Zombie : MonoBehaviour
         }
         if (HP <= 0)
         {
-            ani.SetTrigger("died");
+            ani.SetTrigger("die");
+            Score.playerScore += 5;
+            died = true;
             Destroy(enemy, 0.5f);
         }
     }

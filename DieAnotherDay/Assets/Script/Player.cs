@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    
     public float moveSpeed = 3f;
     public Rigidbody2D rb;
 
@@ -73,7 +74,11 @@ public class Player : MonoBehaviour
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        if (currentHealth < 0) died = true;
+        if (currentHealth < 0)
+        {
+            died = true;
+
+        }
         healthbar.SetHealth(currentHealth);
     }
 }

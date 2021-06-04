@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spawner : MonoBehaviour
+public class AlienSpawn : MonoBehaviour
 {
     // Start is called before the first frame update
     public Transform Portal;
@@ -17,7 +17,7 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (T % 500 == 0)
+        if (T % 200 == 0 && !Player.died)
         {
             Vector2 spawnPos = PortalCircle + Random.insideUnitCircle * 1.5f;
             Instantiate(Alien, spawnPos, Quaternion.identity);

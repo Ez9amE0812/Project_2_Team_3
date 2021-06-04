@@ -82,6 +82,7 @@ public class Alien : MonoBehaviour
         if (HP <= 0)
         {
             ani.SetTrigger("died");
+            Score.playerScore += 20;
             Destroy(enemy, 0.5f);
         }
     }
